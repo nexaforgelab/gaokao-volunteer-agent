@@ -1,0 +1,17 @@
+{
+  "name": "gaokao-volunteer-advisor",
+  "version": "1.0.0",
+  "description": "中国高考志愿填报多 Agent 系统 - 辅助考生完成志愿填报分析",
+  "author": "Gaokao Volunteer Agent",
+  "agents": ["gaokao-volunteer-advisor"],
+  "skills": [
+    "gaokao-profile-analysis",
+    "gaokao-policy-rules",
+    "gaokao-data-ingestion",
+    "gaokao-rank-analysis",
+    "gaokao-major-career-match",
+    "gaokao-volunteer-plan",
+    "gaokao-risk-review",
+    "gaokao-report-writer"
+  ]
+}

@@ -1,0 +1,17 @@
+广东:
+  volunteer_mode: school_major_group
+  batch_count: 2
+  volunteer_count_per_batch: 45
+  adjustment_allowed: true
+  description: |
+    广东本科批采用院校专业组平行志愿模式，可填报 45 个院校专业组。
+    每组可填 6 个专业，可选择是否服从专业调剂。
+    具体以广东省教育考试院当年发布的招生录取工作通知为准。
+
+江苏:
+  volunteer_mode: school_major_group
+  batch_count: 2
+  volunteer_count_per_batch: 40
+  adjustment_allowed: true
+  description: |
+    江苏本科批采用院校专业组平行志愿模式，可填报 40 个院校专业组。

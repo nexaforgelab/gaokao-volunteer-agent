@@ -1,0 +1,27 @@
+# 风险审查报告
+
+**审查状态**：{{ "通过" if risk_review.passed else "未通过" }}
+**风险等级**：{{ risk_review.risk_level }}
+**是否可生成报告**：{{ "是" if risk_review.safe_to_generate_report else "否" }}
+
+## 阻断性问题
+
+{% if risk_review.blocking_issues -%}
+{% for issue in risk_review.blocking_issues -%}
+- 🚫 {{ issue }}
+{% endfor %}
+{% else -%}
+无
+{% endif %}
+
+## 警告
+
+{% for w in risk_review.warnings -%}
+- ⚠️ {{ w }}
+{% endfor %}
+
+## 需要人工核验
+
+{% for item in risk_review.required_human_review_items -%}
+- [ ] {{ item }}
+{% endfor %}

@@ -1,0 +1,16 @@
+{
+  "name": "gaokao-admissions",
+  "version": "1.0.0",
+  "description": "高考招生分析垂直插件",
+  "type": "vertical-plugin",
+  "skills": [
+    "gaokao-profile-analysis",
+    "gaokao-policy-rules",
+    "gaokao-data-ingestion",
+    "gaokao-rank-analysis",
+    "gaokao-major-career-match",
+    "gaokao-volunteer-plan",
+    "gaokao-risk-review",
+    "gaokao-report-writer"
+  ]
+}

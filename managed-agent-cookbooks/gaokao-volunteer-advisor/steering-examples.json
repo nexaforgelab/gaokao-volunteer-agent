@@ -1,0 +1,12 @@
+[
+  {
+    "input": "我是广东考生，612分，物理类，位次18500，想学计算机",
+    "expected_workflow": ["profile-analysis", "policy-rules", "data-check", "rank-analysis", "major-match", "plan-build", "risk-review", "report"],
+    "expected_outputs": ["profile.json", "volunteer_plan.json", "final_report.md"]
+  },
+  {
+    "input": "帮我看看华东地区的985高校",
+    "expected_workflow": ["profile-analysis", "data-check", "rank-analysis"],
+    "notes": "需要先确认考生画像"
+  }
+]
